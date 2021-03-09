@@ -99,7 +99,7 @@ class _QuizPageState extends State<QuizPage> {
                 checkAnswer(true);
               },
               child: Text(
-                'True',
+                'Правда',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24.0,
@@ -118,7 +118,7 @@ class _QuizPageState extends State<QuizPage> {
                 checkAnswer(false);
               },
               child: Text(
-                'False',
+                'Ложь',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24.0,
